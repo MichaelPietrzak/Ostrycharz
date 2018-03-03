@@ -1,0 +1,353 @@
+html {
+  height: 100%;
+  width: -webkit-calc(100% - 0px); }
+
+body {
+  font-size: 9px;
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto !important;
+  width: -webkit-calc(100% - 0px); }
+
+a {
+  text-decoration: none;
+  outline: none !important; }
+  a:hover {
+    text-decoration: none;
+    outline: none !important; }
+  a:focus {
+    text-decoration: none;
+    outline: none !important; }
+  a:active {
+    text-decoration: none;
+    outline: none !important; }
+
+.clickable {
+  cursor: pointer; }
+
+.container-ulg {
+  margin: 0 auto;
+  width: 100%; }
+
+.container-lg {
+  margin: 0 auto;
+  width: 98%; }
+
+@media only screen and (min-width: 601px) {
+  .container-lg {
+    width: 96%; } }
+@media only screen and (min-width: 993px) {
+  .container-lg {
+    width: 94%; } }
+@media all and (max-width: 1200px) {
+  body {
+    font-size: 7px; } }
+@media all and (max-width: 767px) {
+  body {
+    font-size: 6px; } }
+@font-face {
+  font-family: 'fb-icon';
+  src: url("../font/fontello.eot?66681437");
+  src: url("../font/fontello.eot?66681437#iefix") format("embedded-opentype"), url("../font/fontello.woff?66681437") format("woff"), url("../font/fontello.ttf?66681437") format("truetype"), url("../font/fontello.svg?66681437#fontello") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+.fixed-button-shrink {
+  position: fixed;
+  padding-left: 13px;
+  padding-top: 11px;
+  width: 190px;
+  height: 50px;
+  top: 30% !important;
+  color: white;
+  right: -140px;
+  z-index: 999;
+  background-color: #c05c4d;
+  transition-duration: 0.3s;
+  overflow: visible;
+  font-size: 1.8em; }
+
+.fixed-button-shrink:hover {
+  right: 0px;
+  transition-duration: 0.3s; }
+
+.fixed-button-shrink i {
+  overflow: visible;
+  transition-duration: 0.3s;
+  float: left;
+  font-size: 1.8em;
+  width: 15%; }
+
+.fixed-button-description {
+  float: left;
+  margin-top: 3px;
+  margin-left: 12px;
+  text-align: center;
+  width: 70%; }
+
+.localisation-fixed-button {
+  margin-top: 50px; }
+
+.message-fixed-button {
+  margin-top: 100px; }
+
+.fb-fixed-button {
+  margin-top: 150px; }
+
+.demo-icon {
+  font-family: "fb-icon";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em; }
+
+@media all and (max-width: 1200px) {
+  .fixed-button-shrink {
+    height: 43px; }
+
+  .localisation-fixed-button {
+    margin-top: 43px; }
+
+  .message-fixed-button {
+    margin-top: 86px; }
+
+  .fb-fixed-button {
+    margin-top: 129px; } }
+.scrollIcon {
+  position: absolute;
+  bottom: 5%;
+  left: 50%; }
+  .scrollIcon section {
+    position: relative;
+    width: 100%;
+    height: 100%; }
+  .scrollIcon section::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 80%; }
+  .scrollIcon #scrollIcon {
+    background: white center center / cover no-repeat; }
+  .scrollIcon .demo a {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    z-index: 2;
+    display: inline-block;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    color: black;
+    font: normal 400 20px/1 'Josefin Sans', sans-serif;
+    letter-spacing: .1em;
+    text-decoration: none;
+    transition: opacity .3s; }
+  .scrollIcon #scrollIcon a {
+    padding-top: 70px;
+    cursor: default; }
+  .scrollIcon #scrollIcon a span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 36px;
+    height: 36px;
+    margin-left: -12px;
+    border-left: 2px solid #000;
+    border-bottom: 2px solid #000;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-animation: sdb05 1.5s infinite;
+    animation: sdb05 1.5s infinite;
+    box-sizing: border-box; }
+@-webkit-keyframes sdb05 {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+    opacity: 0; }
+  50% {
+    opacity: 1; }
+  100% {
+    -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0; } }
+@keyframes sdb05 {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+    opacity: 0; }
+  50% {
+    opacity: 1; }
+  100% {
+    transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0; } }
+nav {
+  background-color: white; }
+  nav i {
+    color: black; }
+  nav ul a {
+    color: black;
+    font-size: 2.6em; }
+  nav .brand-logo {
+    padding: 13px; }
+    nav .brand-logo img {
+      height: 60px; }
+
+nav,
+nav .nav-wrapper i,
+nav a.button-collapse,
+nav a.button-collapse i {
+  line-height: 100px;
+  height: 100px; }
+
+@media only screen and (min-width: 993px) {
+  nav span.button-collapse {
+    display: none; } }
+.side-nav {
+  width: 200px;
+  text-align: center; }
+  .side-nav img {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  .side-nav li {
+    text-align: left; }
+
+.second-preloader {
+  font-size: 5em; }
+
+#drzewa .mainPage-section-img {
+  background-image: url(../images/drzewa.jpg); }
+
+#ogrody .mainPage-section-img {
+  background-image: url(../images/ogrody.jpg); }
+
+.mainPage-section-img {
+  width: auto;
+  box-shadow: 4px 4px 20px black;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-left: -23px; }
+  .mainPage-section-img .title {
+    font-size: 5em;
+    color: white;
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+    letter-spacing: 2px;
+    font-weight: 300; }
+    .mainPage-section-img .title .material-icons {
+      font-size: 2.3rem; }
+
+.mainPageSection {
+  padding-top: 100px; }
+  .mainPageSection .p-content {
+    padding: 13%;
+    padding-bottom: 27%;
+    padding-top: 18%;
+    text-align: justify;
+    font-size: 2.2em; }
+  @media all and (max-width: 1500px) {
+    .mainPageSection .p-content {
+      padding: 10%;
+      padding-bottom: 20%;
+      padding-top: 15%;
+      text-align: justify;
+      font-size: 2em; } }
+
+.team-section {
+  padding-top: 10%;
+  padding-bottom: 3%; }
+  .team-section h3 span {
+    font-weight: bold !important; }
+  .team-section .team-person {
+    margin: auto;
+    text-align: center;
+    font-size: 2.2em; }
+    .team-section .team-person .teamName {
+      font-weight: bold; }
+    .team-section .team-person img {
+      width: 80%; }
+
+.kontakt-section {
+  padding-top: 7%;
+  padding-bottom: 3%;
+  background: #F5F5F5;
+  color: black; }
+  .kontakt-section .kontakt {
+    text-align: right;
+    border-right: 2px solid black;
+    padding-right: 25px; }
+    .kontakt-section .kontakt p {
+      margin: 0px; }
+    .kontakt-section .kontakt .or-p {
+      padding-top: 1%;
+      font-size: 2.4em;
+      color: rgba(0, 0, 0, 0.2); }
+    .kontakt-section .kontakt .title {
+      font-size: 2.8em;
+      padding-top: 5%; }
+    .kontakt-section .kontakt .before-or-p {
+      padding-top: 1%; }
+    .kontakt-section .kontakt .content {
+      font-size: 1.8em; }
+      .kontakt-section .kontakt .content:last-of-type {
+        padding-bottom: 5%; }
+
+/* label focus color */
+.input-field input[type=text]:focus + label {
+  color: #c05c4d !important; }
+
+.input-field input[type=email]:focus + label {
+  color: #c05c4d !important; }
+
+/* label underline focus color */
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #c05c4d !important;
+  box-shadow: 0 1px 0 0 #c05c4d !important; }
+
+.input-field input[type=email]:focus {
+  border-bottom: 1px solid #c05c4d !important;
+  box-shadow: 0 1px 0 0 #c05c4d !important; }
+
+.input-field .prefix:focus {
+  color: #c05c4d !important; }
+
+.material-icons.active {
+  color: #c05c4d !important; }
+
+/* label focus color */
+.input-field input[type=text]:focus + label,
+.materialize-textarea:focus:not([readonly]) + label {
+  color: #c05c4d !important; }
+
+.input-field input[type=email]:focus + label,
+.materialize-textarea:focus:not([readonly]) + label {
+  color: #c05c4d !important; }
+
+/* label underline focus color */
+.input-field input[type=text]:focus,
+.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #c05c4d !important;
+  box-shadow: 0 1px 0 0 #c05c4d !important; }
+
+.input-field input[type=email]:focus,
+.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #c05c4d !important;
+  box-shadow: 0 1px 0 0 #c05c4d !important; }
+
+button[type=submit] {
+  background-color: #c05c4d !important; }
+
+form i {
+  color: #c05c4d; }
+
+footer {
+  height: 50px;
+  background: #F5F5F5;
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

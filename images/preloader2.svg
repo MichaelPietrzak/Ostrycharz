@@ -1,0 +1,39 @@
+      <svg id="SVG-Circus-6a129fba-e8a6-0862-3520-41d56566ed64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet">
+        <rect id="actor_5" x="75" y="45" width="10" height="10" opacity="1" fill="rgba(0,0,0,1)" fill-opacity="1" stroke="rgba(0,0,0,1)" stroke-width="1" stroke-opacity="1" stroke-dasharray="">
+<animateTransform attributeName="transform"
+    type="translate"
+    from="0 0"
+    to="30 0"
+    begin="0s"
+    dur="1s"
+    repeatCount="indefinite"
+  />
+      <animate
+      attributeName="opacity"
+      dur="1s"
+      values="1;0"
+      repeatCount="indefinite" 
+      begin="0s"/> 
+	  
+		</rect>
+      </svg>
+	  
+	        <svg id="SVG-Circus-6a129fba-e8a6-0862-3520-41d56566ed64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet">
+        <rect id="actor_5" x="35" y="15" width="10" height="10" opacity="1" fill="rgba(0,0,0,1)" fill-opacity="1" stroke="rgba(0,0,0,1)" stroke-width="1" stroke-opacity="1" stroke-dasharray="">
+<animateTransform attributeName="transform"
+    type="translate"
+    from="0 0"
+    to="30 0"
+    begin="0s"
+    dur="1s"
+    repeatCount="indefinite"
+  />
+      <animate
+      attributeName="opacity"
+      dur="1s"
+      values="1;0"
+      repeatCount="indefinite" 
+      begin="0s"/> 
+	  
+		</rect>
+      </svg>

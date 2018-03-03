@@ -1,0 +1,455 @@
+.second-preloader {
+  font-size: 5em;
+}
+
+#drzewa {
+  .mainPage-section-img {
+    background-image: url(../images/drzewa.jpg);
+  }
+}
+
+#ogrody {
+  .mainPage-section-img {
+    background-image: url(../images/ogrody.jpg);
+  }
+}
+
+.mainPage-section-img {
+  width: auto;
+  box-shadow: 4px 4px 20px black;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-left: -23px;
+  .title {
+    font-size: 5em;
+    color: white;
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+    letter-spacing: 2px;
+    font-weight: 300;
+    .material-icons {
+      font-size: 2.3rem;
+    }
+  }
+}
+
+.mainPageSection {
+  padding-top: 100px;
+  .p-content {
+    padding: 13%;
+    padding-bottom: 27%;
+    padding-top: 18%;
+    text-align: justify;
+    font-size: 2.2em;
+  }
+  @media all and (max-width: 1500px) {
+    .p-content {
+      padding: 10%;
+      padding-bottom: 20%;
+      padding-top: 15%;
+      text-align: justify;
+      font-size: 2em;
+    }
+  }
+}
+
+.team-section {
+  padding-top: 10%;
+  padding-bottom: 3%;
+  h3 {
+    span {
+      font-weight: bold !important;
+    }
+  }
+  .team-person {
+    margin: auto;
+    text-align: center;
+    font-size: 2.2em;
+    .teamName {
+      font-weight: bold;
+    }
+    img {
+      width: 80%;
+    }
+  }
+}
+
+.kontakt-section {
+  padding-top: 7%;
+  padding-bottom: 3%;
+  background: #F5F5F5;
+  color: black;
+  .kontakt {
+    text-align: right;
+    border-right: 2px solid black;
+    padding-right: 25px;
+    p {
+      margin: 0px;
+    }
+    .or-p {
+      padding-top: 1%;
+      font-size: 2.4em;
+      color: rgba(0, 0, 0, 0.2);
+    }
+    .title {
+      font-size: 2.8em;
+      padding-top: 5%;
+    }
+    .before-or-p {
+      padding-top: 1%;
+      ;
+    }
+    .content {
+      font-size: 1.8em;
+      &:last-of-type {
+        padding-bottom: 5%;
+      }
+    }
+  }
+}
+
+//
+//.section0 {
+//  margin: auto;
+//  width: 100%;
+//  overflow: hidden;
+//  background-image: url(../images/main-background3.jpg);
+//  background-attachment: scroll;
+//  z-index: -999;
+//  height: 900px;
+//  background-position: top;
+//  background-size: cover;
+//  background-repeat: no-repeat;
+//  color: white;
+//  text-shadow: 1px 1px 1px grey;
+//  h1 {
+//    text-shadow: 0px 0px 0.5px black;
+//    margin-top: -17px;
+//    margin-bottom: 140px;
+//    font-size: 37.47px;
+//    letter-spacing: 7px;
+//    font-weight: bold;
+//    font-family: 'Syncopate', sans-serif;
+//  }
+//  .center-align {
+//    margin: auto;
+//  }
+//  .main-header {
+//    text-shadow: 0px 0px 0.5px black;
+//    font-family: 'Syncopate', sans-serif;
+//    margin: 0px;
+//    font-size: 59.09px;
+//    font-weight: bold;
+//    letter-spacing: 10px;
+//    span {
+//      letter-spacing: 10px;
+//      font-weight: normal;
+//    }
+//  }
+//}
+//
+//.titleSection0 {
+//  position: relative;
+//  margin: auto;
+//  text-align: center;
+//  padding-top: 350px;
+//  z-index: 100;
+//}
+//
+//.particles-js-canvas-el {
+//  margin-top: -605px;
+//  z-index: -997;
+//  visibility: visible;
+//}
+//
+//@media all and (max-width: 1440px) {
+//  .particles-js-canvas-el {
+//    margin-top: -450px;
+//  }
+//  .titleSection0 {
+//    padding-top: 200px;
+//  }
+//  .section0 {
+//    height: 600px;
+//  }
+//}
+//
+//@media all and (max-width: 1200px) {
+//  .particles-js-canvas-el {
+//    margin-top: -440px;
+//  }
+//  .section0 {
+//    height: 500px;
+//    h1 {
+//      font-size: 4em;
+//      letter-spacing: 6px;
+//    }
+//    .main-header {
+//      span {
+//        letter-spacing: 8px;
+//      }
+//    }
+//  }
+//}
+//
+//@media all and (max-width:992px) {
+//  .particles-js-canvas-el {
+//    visibility: hidden;
+//  }
+//  .section0 {
+//    h1 {
+//      margin-top: -20px;
+//      font-size: 27px;
+//      letter-spacing: 5px;
+//    }
+//    .main-header {
+//      font-size: 48px;
+//    }
+//  }
+//}
+//
+//@media all and (max-width: 767px) {
+//  .section0 {
+//    height: 250px;
+//    .titleSection0 {
+//      padding-top: 0px;
+//    }
+//    h1 {
+//      margin-top: 0px;
+//      font-size: 2.3em;
+//      letter-spacing: 6px;
+//    }
+//    .main-header {
+//      font-size: 4.3em;
+//      letter-spacing: 4px;
+//      margin-top: 100px;
+//      span {
+//        letter-spacing: 8px;
+//      }
+//    }
+//  }
+//}
+//
+//@media all and (max-width: 400px) {
+//  .section0 {
+//    h1 {
+//      margin-top: 0px;
+//      font-size: 1.6em;
+//      letter-spacing: 4px;
+//    }
+//    .main-header {
+//      word-wrap: break-word;
+//      font-size: 2.8em;
+//      letter-spacing: 3px;
+//      margin-top: 100px;
+//      span {
+//        word-wrap: break-word;
+//        letter-spacing: 4px;
+//      }
+//    }
+//  }
+//}
+//
+//.onas-section {
+//  padding-top: 100px;
+//  padding-bottom: 100px;
+//  h2 {
+//    font-weight: bold;
+//    font-size: 4em;
+//    color: #c05c4d;
+//  }
+//  p {
+//    font-size: 1.7em;
+//    text-align: justify;
+//  }
+//  h6 {
+//    font-weight: bold;
+//    padding-top: 30px;
+//    padding-top: 3.5em;
+//    color: #c05c4d;
+//  }
+//  height: inherit;
+//}
+//
+//.oferta-section {
+//  background-color: #c05c4d;
+//  padding: 80px;
+//  padding-top: 130px;
+//  padding-bottom: 130px;
+//  .visibleIcons {
+//    color: white;
+//    .col {
+//      p:last-child {
+//        cursor: pointer;
+//        font-size: 3em;
+//        font-weight: bold;
+//      }
+//    }
+//  }
+//  img {
+//    width: 50%;
+//    cursor: pointer;
+//  }
+//  .modal {
+//    top: 5% !important;
+//    background-color: white;
+//    max-height: 90% !important;
+//    /* increase the width and height! */
+//    width: 70%;
+//  }
+//  .modal-content {
+//    padding-bottom: 0px;
+//    img {
+//      cursor: auto;
+//    }
+//    .row {
+//      margin-bottom: 0px;
+//      h2 {
+//        font-size: 3.0em;
+//        margin-bottom: 0px;
+//        font-weight: bold;
+//      }
+//      .close-s1 {
+//        padding: 0px;
+//        text-align: right;
+//        color: #c05c4d;
+//        font-weight: bold;
+//        i {
+//          font-size: 4em;
+//          cursor: pointer;
+//        }
+//      }
+//    }
+//    .content-modal-text {
+//      text-align: justify;
+//      font-size: 1.8em;
+//      padding: 20px;
+//      padding-top: 0px;
+//    }
+//    .content-modal-cols {
+//      margin-bottom: 0px;
+//      .modal-col {
+//        padding-top: 20px;
+//        text-align: left;
+//      }
+//      h3 {
+//        color: #c05c4d;
+//        font-size: 2em;
+//        font-weight: bold;
+//        text-align: center;
+//      }
+//      .jquery-match-height-img {
+//        img {
+//          margin: auto;
+//        }
+//      }
+//      p {
+//        font-size: 1.8em;
+//      }
+//      .col-1st,
+//      .col-3st {}
+//      .col-2st {
+//        background-color: #c05c4d;
+//        h3 {
+//          color: white;
+//        }
+//        p {
+//          color: white;
+//        }
+//      }
+//    }
+//  }
+//}
+//
+//.special-pulse {
+//  width: 15vw;
+//  height: 15vw;
+//  line-height: 0px;
+//  padding: 4vw;
+//  background-color: white;
+//  &::before {
+//    display: none;
+//  }
+//  img {
+//    width: 100%;
+//    margin: auto;
+//  }
+//}
+//
+//.special-pulse:hover {
+//  background-color: #f6e7e5;
+//  &::before {
+//    display: block;
+//    top: 10%;
+//    left: 10%;
+//    height: 80%;
+//    width: 80%;
+//    background-color: white;
+//    z-index: -2;
+//  }
+//}
+//
+//@media all and (max-width: 1200px) {
+//  .modal {
+//    width: 95%!important;
+//  }
+//}
+//
+//@media all and (max-width: 992px) {
+//  .oferta-section {
+//    padding: 40px;
+//    .special-pulse {
+//      width: 12vw;
+//      height: 12vw;
+//      padding: 3vw;
+//    }
+//  }
+//}
+//
+//@media all and (max-width: 600px) {
+//  .oferta-section {
+//    .special-pulse {
+//      width: 40vw;
+//      height: 40vw;
+//      padding: 9vw;
+//    }
+//  }
+//}
+//
+//.wspolpraca-section {
+//  h4 {
+//    color: #c05c4d;
+//    font-weight: bold;
+//    word-wrap: break-word;
+//    font-size: 3.6em;
+//  }
+//  p {
+//    font-size: 2em;
+//  }
+//  img {
+//    max-width: 60%;
+//  }
+//}
+//
+//.partners-section {
+//  padding-top: 35px;
+//  .row {
+//    padding-top: 35px;
+//  }
+//  img {
+//    padding: 10px;
+//    max-width: 100%;
+//  }
+//}
+//
+//.kontakt-section {
+//  form {
+//    padding-top: 15px;
+//    .row {
+//      padding-bottom: 10px;
+//      padding-top: 10px;
+//    }
+//  }
+//}

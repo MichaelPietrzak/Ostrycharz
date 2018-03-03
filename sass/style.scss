@@ -1,0 +1,78 @@
+html {
+  height: 100%;
+  width: -webkit-calc(100% - 0px);
+}
+
+body {
+  font-size: 9px;
+  font-family: 'Montserrat', sans-serif; // 'Saira Semi Condensed', sans-serif !important;
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto !important; // remove jump right effect while open modal(just 1 line)
+  width: -webkit-calc(100% - 0px);
+}
+
+a {
+  text-decoration: none;
+  outline: none !important;
+  &:hover {
+    text-decoration: none;
+    outline: none !important;
+  }
+  &:focus {
+    text-decoration: none;
+    outline: none !important;
+  }
+  &:active {
+    text-decoration: none;
+    outline: none !important;
+  }
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.container-ulg {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.container-lg {
+  margin: 0 auto;
+  width: 98%;
+}
+
+@media only screen and (min-width: 601px) {
+  .container-lg {
+    width: 96%;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .container-lg {
+    width: 94%;
+  }
+}
+
+@media all and (max-width: 1200px) {
+  body {
+    font-size: 7px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  body {
+    font-size: 6px;
+  }
+}
+
+@import "fonts.scss";
+@import "fixed-buttons.scss";
+@import "scrollIcon.scss";
+@import "navbar.scss";
+@import "mainPage.scss";
+@import "contact-form.scss";
+@import "footer.scss";
